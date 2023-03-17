@@ -7,9 +7,9 @@ const SingleBlogPage = () => {
     // console.log(title)
     return (
         <div className='single__page'>
-            <h1>{title}</h1>
-            <img src={img} alt="" />
-            <p>{description}</p>
+            <img src={img} alt="" /> <br />
+            <h1>{title}</h1> <br /> <br />
+            <p>{description}</p> <br /> <br />
         </div>
     )
 }

@@ -14,8 +14,8 @@ const DetailPage = () => {
     return (
         <div className='main'>
         <SingleBlogPage/>
-        <button className='mystyle' onClick={GoBack}>Go Back</button>
-        <Link to="/"> <button className='mystyle' >Go Home</button> </Link>
+        <button className='mystyle' onClick={GoBack}></button>
+        <Link to="/"> <button className='mystyle' ></button> </Link>
         </div>
     )
 }

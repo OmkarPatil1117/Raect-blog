@@ -15,13 +15,12 @@ code {
 
 /* single page */
 .single__page{
-  margin: 50px 20%;
   align-items: center;
 }
 .single__page img{
   width: 100%;
   margin: 20px 0;
-  height: 500px;
+  height: 600px;
   align-items: center;
 }
 
@@ -469,4 +468,8 @@ flex-direction: column;
   .mystyle:hover{
   color: darkblue;
   background-color: gold;
+  }
+
+  a:hover {
+    color: orange;
   }

@@ -7,7 +7,7 @@ import SmallCard from "../Component/SmallCard";
 const Home = () => {
     const [detail,setDetail]=useState([])
     useEffect(()=>{
-        // fetch("http://localhost:4000/")
+        // fetch("http://localhost:4000/");
         fetch("https://node-blog-3n9c.onrender.com/")
         .then(res=>(res.json()))
         .then((res)=>setDetail(res))
@@ -16,12 +16,13 @@ const Home = () => {
     return (
         <div>
             <div className="Home">
+                
                 <div className="home__container">
                     <div className="home__first">
                         <Link to="/Technology">
                             {" "}
-                            <img
-                                src={"https://www.finance-monthly.com/Finance-Monthly/wp-content/uploads/2017/07/top-new-innovation-technology.jpg"}
+                            <img width={"80%"}
+                                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3dybGBKXpNLtsORBwSreScM0yJdTzZscLRw&usqp=CAU"}
                                 alt="not found"
                             />
                         </Link>
@@ -31,7 +32,7 @@ const Home = () => {
                             <Link to="/fitness">
                                 {" "}
                                 <img
-                                    src={"https://images.indianexpress.com/2020/04/headstand-1200.jpg"}
+                                    src={"https://images.healthshots.com/healthshots/en/uploads/2022/03/20121414/fitness-woman-1600x900.jpg"}
                                     alt="not found"
                                 />
                             </Link>
@@ -41,7 +42,7 @@ const Home = () => {
                             <Link to="/Food">
                                 {" "}
                                 <img
-                                    src={"https://media.istockphoto.com/photos/biryani-picture-id1305452646?b=1&k=20&m=1305452646&s=170667a&w=0&h=1M4qIQor9-oTbDFc8osB9TKQEEMBn7j_4D1Qy7hRdNk="}
+                                    src={"https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000"}
                                     alt="not found"
                                 />
                             </Link>
