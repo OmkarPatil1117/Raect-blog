@@ -5,12 +5,10 @@ import SmallCard from '../Component/SmallCard';
 const Bollywood = () => {
     const [detail,setDetail]=useState([])
     useEffect(()=>{
-        // fetch("http://localhost:4000/")
         fetch("https://node-blog-3n9c.onrender.com/")
         .then(res=>(res.json()))
         .then((res)=>setDetail(res))
     },[])
-    console.log(detail)
     return (
         <div>
             <h1 style={{ margin: "20px 10%", display: "inline-block" }}>BOLLYWOOD</h1>
